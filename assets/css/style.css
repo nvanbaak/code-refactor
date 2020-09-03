@@ -29,7 +29,7 @@ header h1 {
 }
 
 /* This is used to make "seo" pop out of "Horiseon" in the title */
-header h1 .seo {
+.seo {
     color: #d9dcd6;
 }
 
@@ -83,6 +83,7 @@ main {
     margin-left: 20px;
 }
 
+/* Defines size and positioning for each section in main */
 main section {
     margin-bottom: 20px;
     padding: 50px;
@@ -90,10 +91,12 @@ main section {
     background-color: #0072bb;
 }
 
+/* Sets all images in main to 200px max */
 main img {
     max-height: 200px;
 }
 
+/* Sets the font size nad margins on h2 headers in main */
 main h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -110,25 +113,26 @@ aside {
     background-color: #2589bd;
 }
 
+/* Sets the margins on all sections in aside */
 aside section {
     margin-bottom: 32px;
 }
 
-aside h2, aside h3 {
+/* Sets margin and centered on the sidebar headings and line break*/
+aside h2, aside h3 , hr{
     margin-bottom: 10px;
     text-align: center;
 }
 
-hr {
-    margin-bottom: 10px;
-}
-
+/* Sets size and margins on sidebar images */
 aside img {
+    /* Display: block lets us center the image */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Defines positioning and font for the footer */
 footer {
     padding: 30px;
     clear: both;
@@ -136,11 +140,13 @@ footer {
     text-align: center;
 }
 
+/* Defines font size and color for footer heading */
 footer h2 {
     font-size: 20px;
     color: black;
 }
 
+/* Sets footer paragraphs to black */
 footer p {
     color: black;    
 }
