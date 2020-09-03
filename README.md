@@ -4,7 +4,7 @@ I was given a website for a marketing agency and tasked with refactoring it to m
 
 To complete this task, the following issues needed to be addressed:
 * Everything was a div.  I replaced everything with best practice semantic tags.
-* The HTML had a number of unecessary classes, which I removed.  The relevant CSS stylings were refactored to use the new semantic tags.
+* The HTML had a number of unnecessary classes, which I removed.  The relevant CSS stylings were refactored to use the new semantic tags.
 * Several redundant CSS styling rules were consolidated.
 * None of the img tags had alt attributes.  I added descriptive alt attributes to each img element.
 * I updated the title element to something more descriptive than "website".
